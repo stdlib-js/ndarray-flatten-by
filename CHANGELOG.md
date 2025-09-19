@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-18)
+## Unreleased (2025-09-19)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`ecde0da`](https://github.com/stdlib-js/stdlib/commit/ecde0dab6fa80df5a13632b83ef780ba46861dd8) - **chore:** fix return annotation comments and spacing _(by Philipp Burckhardt)_
 -   [`6f6da0a`](https://github.com/stdlib-js/stdlib/commit/6f6da0afaa12ef31691ae659f6a005f140d81cd1) - **fix:** add missing argument to format strings _(by Philipp Burckhardt)_
 -   [`6fe6a73`](https://github.com/stdlib-js/stdlib/commit/6fe6a7362f3e6cc18790ee1c4f7388cbce187cb3) - **feat:** add `dtype` option support in `ndarray/flatten-by` [(#8094)](https://github.com/stdlib-js/stdlib/pull/8094) _(by Muhammad Haris, Athan Reines)_
 -   [`c8652f3`](https://github.com/stdlib-js/stdlib/commit/c8652f3a3ca317179b46596787eb4db4966c154a) - **feat:** add `ndarray/flatten-by` [(#8078)](https://github.com/stdlib-js/stdlib/pull/8078) _(by Muhammad Haris, Athan Reines)_
