@@ -64,6 +64,7 @@
     "@stdlib/assert-is-same-float32array": "^0.2.2",
     "@stdlib/assert-is-same-float64array": "^0.2.2",
     "@stdlib/ndarray-array": "^0.2.1",
+    "@stdlib/ndarray-base-assert-is-equal-data-type": "github:stdlib-js/ndarray-base-assert-is-equal-data-type#main",
     "@stdlib/ndarray-base-strides2offset": "^0.2.2",
     "@stdlib/ndarray-base-zeros": "^0.3.0",
     "@stdlib/ndarray-ctor": "^0.2.2",
