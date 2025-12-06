@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2025-12-06)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`356e8a0`](https://github.com/stdlib-js/stdlib/commit/356e8a0f15db7f18f8be83272401dc90de4cc1a0) - **docs:** use boolean typed array in example _(by Philipp Burckhardt)_
 -   [`ac2734e`](https://github.com/stdlib-js/stdlib/commit/ac2734ecf26371d363be61dbb4f3448c9cb964d4) - **docs:** address lint errors in TSDoc comments _(by Philipp Burckhardt)_
 -   [`6d0ad29`](https://github.com/stdlib-js/stdlib/commit/6d0ad290fdb48864de0c09c5dd55c9eff7a22586) - **test:** use assertion utility and update example _(by Athan Reines)_
 -   [`06be0fa`](https://github.com/stdlib-js/stdlib/commit/06be0fad3ca61038f88e603e39e33504be481ed8) - **refactor:** use base constructor and fix comments _(by Athan Reines)_
