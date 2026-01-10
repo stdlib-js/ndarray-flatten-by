@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-06)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`141399c`](https://github.com/stdlib-js/stdlib/commit/141399ca349aa5d998ba9d5df2e46f4ceb316210) - **docs:** improve doctests for ndarray instances in `ndarray/flatten-by` [(#9666)](https://github.com/stdlib-js/stdlib/pull/9666) _(by Shreelaxmi Hegde)_
 -   [`356e8a0`](https://github.com/stdlib-js/stdlib/commit/356e8a0f15db7f18f8be83272401dc90de4cc1a0) - **docs:** use boolean typed array in example _(by Philipp Burckhardt)_
 -   [`ac2734e`](https://github.com/stdlib-js/stdlib/commit/ac2734ecf26371d363be61dbb4f3448c9cb964d4) - **docs:** address lint errors in TSDoc comments _(by Philipp Burckhardt)_
 -   [`6d0ad29`](https://github.com/stdlib-js/stdlib/commit/6d0ad290fdb48864de0c09c5dd55c9eff7a22586) - **test:** use assertion utility and update example _(by Athan Reines)_
@@ -52,11 +53,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Shreelaxmi Hegde
 
 </section>
 

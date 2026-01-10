@@ -75,7 +75,6 @@ Flattens an [ndarray][@stdlib/ndarray/ctor] according to a callback function.
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function scale( value ) {
     return value * 2.0;
@@ -85,10 +84,7 @@ var x = array( [ [ [ 1.0, 2.0 ] ], [ [ 3.0, 4.0 ] ], [ [ 5.0, 6.0 ] ] ] );
 // returns <ndarray>
 
 var y = flattenBy( x, scale );
-// returns <ndarray>
-
-var arr = ndarray2array( y );
-// returns [ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
+// returns <ndarray>[ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
 ```
 
 The function accepts the following arguments:
@@ -117,7 +113,6 @@ By default, the function flattens all dimensions of the input [ndarray][@stdlib/
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function scale( value ) {
     return value * 2.0;
@@ -131,17 +126,13 @@ var opts = {
 };
 
 var y = flattenBy( x, opts, scale );
-// returns <ndarray>
-
-var arr = ndarray2array( y );
-// returns [ [ 2.0, 4.0 ], [ 6.0, 8.0 ], [ 10.0, 12.0 ] ]
+// returns <ndarray>[ [ 2.0, 4.0 ], [ 6.0, 8.0 ], [ 10.0, 12.0 ] ]
 ```
 
 By default, the input [ndarray][@stdlib/ndarray/ctor] is flattened in lexicographic order. To flatten elements in a different order, specify the `order` option.
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function scale( value ) {
     return value * 2.0;
@@ -155,10 +146,7 @@ var opts = {
 };
 
 var y = flattenBy( x, opts, scale );
-// returns <ndarray>
-
-var arr = ndarray2array( y );
-// returns [ 2.0, 6.0, 10.0, 4.0, 8.0, 12.0 ]
+// returns <ndarray>[ 2.0, 6.0, 10.0, 4.0, 8.0, 12.0 ]
 ```
 
 By default, the output ndarray [data type][@stdlib/ndarray/dtypes] is inferred from the input [ndarray][@stdlib/ndarray/ctor]. To return an ndarray with a different [data type][@stdlib/ndarray/dtypes], specify the `dtype` option.
@@ -166,7 +154,6 @@ By default, the output ndarray [data type][@stdlib/ndarray/dtypes] is inferred f
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
 var dtype = require( '@stdlib/ndarray-dtype' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function scale( value ) {
     return value * 2.0;
@@ -179,13 +166,10 @@ var opts = {
     'dtype': 'float32'
 };
 var y = flattenBy( x, opts, scale );
-// returns <ndarray>
+// returns <ndarray>[ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
 
 var dt = String( dtype( y ) );
 // returns 'float32'
-
-var arr = ndarray2array( y );
-// returns [ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
 ```
 
 To set the callback function execution context, provide a `thisArg`.
@@ -194,7 +178,6 @@ To set the callback function execution context, provide a `thisArg`.
 
 ```javascript
 var array = require( '@stdlib/ndarray-array' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 function scale( value ) {
     this.count += 1;
@@ -209,10 +192,7 @@ var ctx = {
 };
 
 var y = flattenBy( x, scale, ctx );
-// returns <ndarray>
-
-var arr = ndarray2array( y );
-// returns [ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
+// returns <ndarray>[ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
 
 var count = ctx.count;
 // returns 6
@@ -306,7 +286,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -332,8 +312,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
