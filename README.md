@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flattenBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-by@deno/mod.js';
+import flattenBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-by@v0.1.1-deno/mod.js';
 ```
 
 #### flattenBy( x\[, options], fcn\[, thisArg] )
@@ -212,7 +212,7 @@ var count = ctx.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import flattenBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-by@deno/mod.js';
+import flattenBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-by@v0.1.1-deno/mod.js';
 
 function scale( value ) {
     return value * 2.0;
